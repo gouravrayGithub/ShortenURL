@@ -50,16 +50,17 @@ This prototype allows users to:
 3️⃣ If valid, **redirects user to the original URL** and **sends a notification email**.  
 
 ---
+### **📸 Screenshot of the Working Prototype**  
+**Working**
+<img width="1440" alt="Screenshot 2025-03-20 at 3 29 48 PM" src="https://github.com/user-attachments/assets/f3758a73-8cf4-41a6-b078-0ba815d7d4f2" />
+<img width="1440" alt="Screenshot 2025-03-20 at 3 30 13 PM" src="https://github.com/user-attachments/assets/e07921cc-4f40-40ea-89c9-091331718f66" />
+**Terminal output**
 
-## **🚀 Deployment (Under Development)**  
+<img width="775" alt="Screenshot 2025-03-20 at 3 32 22 PM" src="https://github.com/user-attachments/assets/78c5cafc-8148-4dab-b360-6abdd0e13732" />
+<img width="1141" alt="Screenshot 2025-03-20 at 10 22 09 PM" src="https://github.com/user-attachments/assets/bf9f5cd6-c1db-4d24-bcd7-d9a8510fc595" />
 
-| **Component**  | **Hosting Service**  | **Status**  |
-|--------------|----------------|-------------|
-| **Frontend**  | Vercel / Netlify | **Under Development** |
-| **Backend**  | Render / Railway  | **Under Development** |
-
-👉 **Frontend is planned to be hosted on Vercel** for fast static deployment.  
-👉 **Backend is planned to be hosted on Render** for seamless API management.  
+**FireBase output**
+<img width="1440" alt="Screenshot 2025-03-20 at 10 25 40 PM" src="https://github.com/user-attachments/assets/200539df-57ac-4dd0-bed6-d0ccab01b404" />
 
 ---
 
@@ -72,15 +73,13 @@ This prototype allows users to:
 ---
 
 ## **🛠️ Technologies Used**  
-🔹 **Frontend**: React.js, Tailwind CSS  
+🔹 **Frontend**: React.js, CSS  
 🔹 **Backend**: Node.js, Express.js, Firebase  
 🔹 **Database**: Firebase Firestore  
-🔹 **Hosting**: Vercel (Frontend), Render (Backend)  
-
 ---
 
 ## **📬 Contact**  
-Questions or feedback, feel free to reach out!  
+feedback, feel free to reach out!  
 
 📧 Email: [thisismegourav@gmail.com]  
 🔗 GitHub: [github.com/gouravrayGithub](https://github.com/gouravrayGithub)  
