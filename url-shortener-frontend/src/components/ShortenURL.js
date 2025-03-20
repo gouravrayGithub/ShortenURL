@@ -57,6 +57,7 @@ const ShortenURL = () => {
         value={ownerEmail}
         onChange={(e) => setOwnerEmail(e.target.value)}
       />
+      <label htmlFor="input-field">Enter the Expiry Date:</label>
       <input
         type="date"
         className="input-field"

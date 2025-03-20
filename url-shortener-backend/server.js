@@ -12,7 +12,7 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-db.settings({ ignoreUndefinedProperties: true }); // ✅ Ignore undefined values
+db.settings({ ignoreUndefinedProperties: true }); //  Ignore undefined values
 
 const app = express();
 const PORT = 5010;
@@ -116,7 +116,7 @@ app.post("/access/:shortCode", async (req, res) => {
 const sendEmailNotification = async (ownerEmail, ownerName, accessorName, accessorEmail, originalURL) => {
   try {
     if (!ownerEmail || !process.env.SMTP_USER || !process.env.SMTP_PASS) {
-      console.error("⚠️ Email credentials missing. Skipping email notification.");
+      console.error(" Email credentials missing. Skipping email notification.");
       return;
     }
 
@@ -132,7 +132,7 @@ const sendEmailNotification = async (ownerEmail, ownerName, accessorName, access
       from: process.env.SMTP_USER,
       to: ownerEmail,
       subject: "Your Shortened URL was Accessed",
-      text: `Hello ${ownerName},\n\n${accessorName} (${accessorEmail}) accessed your shortened URL: ${originalURL}.\n\nRegards,\nURL Shortener Service`,
+      text: `Hello ${ownerName},\n\n${accessorName} (${accessorEmail}) accessed your shortened URL: ${originalURL}.`,
     };
 
     console.log(" Sending email notification...");
